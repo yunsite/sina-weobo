@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="<?php echo base_url();?>/public/css/indexbase.css" rel="stylesheet" type="text/css" />
+<title>登录页面</title>
+</head>
+
+<body>
+<div class="globalheader">
+    <div class="header"><!--头部-->
+    <img class="headerlogo2" src="<?php echo base_url();?>/public/images/headerlogo2.png" />
+    </div>
+</div>
+<div class="container"><!--容器-->
+    <div class="topbar"><!--上边栏-->
+     	<ul>
+           <li class="liimg1"><span>我知道名人在看什么</span></li>
+           <li class="liimg2"></li>
+           <li class="liimg3"><a href="<?=$code_url?>"><img src="<?php echo base_url();?>/public/images/weibo_login.png" /></a></li>
+      </ul>
+    </div>
+</div>
+<div class="globalfooter">
+	<div class="footer"><!--下边栏-->
+      <img class="footerlogo" src="<?php echo base_url();?>/public/images/logo.png" />
+      <i>|</i>
+      <span>微博阅读系列产品</span>
+ 	</div>
+</div>
+</body>
+</html>
